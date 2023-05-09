@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono:wght@100;400&display=swap');
+*{
+font-family: 'Kanit', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+body{
+background-image: url(./assets/img/f.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.container
+{
+    -moz-text-decoration-color: rgb(214, 219, 143);
+    text-decoration-color: rgb(91, 114, 114);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: rgb(64, 96, 122);
+    height: 480px;
+    width: 500px;
+    border-radius: 20px;
+}
+table
+{
+    margin: auto;
+}
+input
+{
+    border-radius: 23px;
+    border: 4px solid #8cd449;
+    font-size: 34px;
+    outline: none;
+    
+}
+button
+{
+    text-decoration-color:beige;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color:rgb(33, 156, 136);
+    width: 104px;
+    height: 58px;
+}
+.calculator
+{
+    border: 4px solid #197c6fb4;
+    background-color:rgb(100, 157, 165);
+    padding: 25px;
+    border-radius: 23px;
+    display: inline-block;
+}
+#col
+{
+    width: 213px;
+}
